@@ -1,0 +1,50 @@
+<!DOCtype html>
+<html>
+<head><title>Html Basic</title>
+<style>
+#table {
+color:red;
+font-size:20px;
+font-family:Arial;
+font-style:italic;
+}
+ol {
+color:blue;
+font-size:20px;
+}
+
+</style>
+</head>
+<body>
+<h1>This is basically what html is</h1>
+<p>I don't want to focus too much on this because it is pretty simple to learn and I kind of know some of it already</p>
+<table border="2">
+<tr id="table">
+<th>table heading</th>
+<th>table heading2</th>
+<th>table heading3</th>
+<th>table heading4</th>
+</tr>
+<tr>
+<td>num2</td>
+<td>num3</td>
+<td>num4</td>
+<td>num5</td>
+</table>
+<ol>
+<li>yo</li>
+<li>yoo</li>
+<li>yooo</li>
+<li>yoooo</li>
+</ol>
+<ul>
+<li>yo</li>
+<li>yoo</li>
+<li>yooo</li>
+<li>yoooo</li>
+</ul>
+<a href="https://www.thisisinsider.com/isle-of-dogs-movie-i-love-dogs-tweets-reactions-2018-3">
+<img src="https://amp.thisisinsider.com/images/5ab50d1b095b1112068b457c-750-562.jpg" width="100px" height="100px" alt="Dog pic">
+</a>
+</body>
+</html>
