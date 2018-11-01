@@ -1,0 +1,150 @@
+
+For files creation
+
+def main():
+#sending data to a file
+#Using a loop
+	#opens file
+	tests_file = open('test.txt','w')
+	scores=int(input('How many scores? '))
+	for count in range(1,scores +1):
+		
+		actual_scores = int(input('What is the score for test '+str(count)))
+		#writes to file
+		tests_file.write(str(actual_scores)+'\n')
+			
+	tests_file.close() #closes file
+	print('You wrote scores to file. test.txt')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# # #read the coaches file
+
+
+
+# # #open the file - coaches,txt
+	# # #outfile = open('coaches.txt',w')
+	# # infile('coaches.txt,'r')
+	# # file_contents = infile,read #reading file contents
+	# # infile.close()
+	
+	# # displau file conents
+	# # print(file_contents)
+	
+	
+# # #def main()
+	
+	# # #write the last 3 steeler coaches
+	# # outfile.write('mike tomlin/n')
+	# # outfile.write('Bill Cowher/n')
+	# # outfile.write('chuck nofll/n')
+	
+	# # #close the file
+	# # outfile.close()
+
+
+# # main()
+# #a - append = adds on to the existing file
+# #w writing the file
+# #r reading the line
+
+# def main():
+# ## writing to a file
+	# Total = 0
+	# outfile = open('numbers.txt','w')
+	
+	# number = int(input('enter a number '))
+	 # #mycity.write(city1+'\n')
+	# outfile.write(str(number)+'\n')
+	
+	# outfile.close()
+	# infile = open('numbers.txt','r')
+	# line = int(infile.readline())
+	# infile.close()
+	# print(line)
+	# Total = 2*(line)
+	# print(Total)
+	
+	# # city1= input('city #1 ')
+	# # city2=input('city #2 ')
+	# # city3=input('city #3 ')
+
+	# # mycity=open('city.txt','a') #always open the file
+	# # #append -add onto the existing file
+	# # mycity.write(city1+'\n')
+	# # mycity.write(city2+'\n')
+	# # mycity.write(city3+'\n')
+	
+	# # mycity.close()
+	# #reading from a file
+	# # urcity=open('city.txt','r') #r means reading the file
+	
+	# # line1 = urcity.readline()
+	# # line2=urcity.readline()
+	# # line3= urcity.readline()
+	
+	# # line1 = line1.rstrip('\n')
+	# # line2 =	line2.rstrip('\n')
+	# # line3 = line3.rstrip('\n')
+	
+	# # urcity.close() #always close the file
+	# # print(line1)
+	# # print(line2)
+	# # print(line3)
+	
+	
+	
+	
+main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
